@@ -1,0 +1,21 @@
+# Core LangChain Orchestration
+langchain==1.0.5
+langchain-core==1.0.4
+langchain-community==0.4.1
+langchain-text-splitters==1.0.0
+
+# LLM (Gemini)
+langchain-google-genai==3.0.1
+google-generativeai==0.8.5
+
+# Local Embeddings, Re-ranker, and Vector Store
+langchain-huggingface==1.0.1
+torch
+transformers
+accelerate
+faiss-cpu
+sentence-transformers
+
+# Data Ingestion (Markdown)
+unstructured[md]
+nltk
